@@ -1,0 +1,24 @@
+{
+  "backend_dir": "fileclassifier-python-api",
+  "frontend_dir": "fileclassifier-react-ui",
+  "dist_dir": "dist-windows",
+  "build_dir": "build-windows",
+  "spec_dir": "scripts",
+  "venv_dir": ".venv",
+  "venv_python_relative": "Scripts\\python.exe",
+  "system_python": "python",
+  "app_name": "FileClassifierWeb",
+  "entry_script": "start_desktop.py",
+  "backend_editable_dependency": ".[web]",
+  "pyinstaller_version_spec": "pyinstaller>=6.13,<7",
+  "desktop_config_filename": "fileclassifier.desktop.json",
+  "desktop_config_example_filename": "fileclassifier.desktop.example.json",
+  "desktop_config_template": {
+    "host": "127.0.0.1",
+    "port": 18080,
+    "open_browser": true,
+    "runtime_dir": "workspace",
+    "reload": false,
+    "workers": 1
+  }
+}

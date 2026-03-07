@@ -1,0 +1,36 @@
+2026-03-07 22:13:01,961 [INFO] Desktop launcher started. executable=D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\FileClassifierWeb.exe
+2026-03-07 22:13:02,490 [INFO] Desktop service URL: http://127.0.0.1:18080
+2026-03-07 22:13:02,490 [INFO] Desktop bind host/port: 127.0.0.1:18080
+2026-03-07 22:13:02,490 [INFO] Browser auto-open: True
+2026-03-07 22:13:02,491 [INFO] Loaded config file: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\fileclassifier.desktop.json
+2026-03-07 22:13:02,491 [INFO] Runtime workspace: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\workspace
+2026-03-07 22:13:02,491 [INFO] Desktop log file: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\workspace\logs\desktop.log
+2026-03-07 22:13:02,492 [INFO] Close this window to stop the local service.
+2026-03-07 22:13:02,529 [INFO] Port 18080 already in use. health_ok=True
+2026-03-07 22:13:41,144 [INFO] Desktop launcher started. executable=D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\FileClassifierWeb.exe
+2026-03-07 22:13:41,700 [INFO] Desktop service URL: http://127.0.0.1:18080
+2026-03-07 22:13:41,700 [INFO] Desktop bind host/port: 127.0.0.1:18080
+2026-03-07 22:13:41,700 [INFO] Browser auto-open: True
+2026-03-07 22:13:41,700 [INFO] Loaded config file: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\fileclassifier.desktop.json
+2026-03-07 22:13:41,701 [INFO] Runtime workspace: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\workspace
+2026-03-07 22:13:41,701 [INFO] Desktop log file: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\workspace\logs\desktop.log
+2026-03-07 22:13:41,701 [INFO] Close this window to stop the local service.
+2026-03-07 22:13:41,725 [INFO] Port 18080 already in use. health_ok=True
+2026-03-07 22:14:43,494 [INFO] Desktop launcher started. executable=D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\FileClassifierWeb.exe
+2026-03-07 22:14:44,009 [INFO] Desktop service URL: http://127.0.0.1:18080
+2026-03-07 22:14:44,010 [INFO] Desktop bind host/port: 127.0.0.1:18080
+2026-03-07 22:14:44,010 [INFO] Browser auto-open: True
+2026-03-07 22:14:44,010 [INFO] Loaded config file: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\fileclassifier.desktop.json
+2026-03-07 22:14:44,011 [INFO] Runtime workspace: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\workspace
+2026-03-07 22:14:44,011 [INFO] Desktop log file: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\workspace\logs\desktop.log
+2026-03-07 22:14:44,011 [INFO] Close this window to stop the local service.
+2026-03-07 22:14:44,044 [INFO] Port 18080 already in use. health_ok=True
+2026-03-07 22:21:20,693 [INFO] Desktop launcher started. executable=D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\FileClassifierWeb.exe
+2026-03-07 22:21:21,219 [INFO] Desktop service URL: http://127.0.0.1:18080
+2026-03-07 22:21:21,220 [INFO] Desktop bind host/port: 127.0.0.1:18080
+2026-03-07 22:21:21,220 [INFO] Browser auto-open: True
+2026-03-07 22:21:21,220 [INFO] Loaded config file: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\fileclassifier.desktop.json
+2026-03-07 22:21:21,221 [INFO] Runtime workspace: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\workspace
+2026-03-07 22:21:21,221 [INFO] Desktop log file: D:\Develop\SourceCode\pythoncode\fileclassifier\dist-windows\workspace\logs\desktop.log
+2026-03-07 22:21:21,221 [INFO] Close this window to stop the local service.
+2026-03-07 22:21:21,233 [INFO] Port 18080 already in use. health_ok=True

@@ -1,0 +1,59 @@
+name: Build Binaries
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            mode: onedir
+            artifact_name: FileClassifier-windows-onedir
+            artifact_path: fileclassifier-python-api/dist/FileClassifier
+            run_cmd: .\fileclassifier-python-api\scripts\package_windows.ps1 -Mode onedir
+            run_shell: pwsh
+          - os: windows-latest
+            mode: onefile
+            artifact_name: FileClassifier-windows-onefile
+            artifact_path: fileclassifier-python-api/dist/FileClassifier.exe
+            run_cmd: .\fileclassifier-python-api\scripts\package_windows.ps1 -Mode onefile
+            run_shell: pwsh
+          - os: ubuntu-latest
+            mode: onedir
+            artifact_name: FileClassifier-linux-onedir
+            artifact_path: fileclassifier-python-api/dist/FileClassifier
+            run_cmd: bash ./fileclassifier-python-api/scripts/package_linux.sh onedir
+            run_shell: bash
+          - os: ubuntu-latest
+            mode: onefile
+            artifact_name: FileClassifier-linux-onefile
+            artifact_path: fileclassifier-python-api/dist/FileClassifier
+            run_cmd: bash ./fileclassifier-python-api/scripts/package_linux.sh onefile
+            run_shell: bash
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Build binary
+        shell: ${{ matrix.run_shell }}
+        run: ${{ matrix.run_cmd }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.artifact_name }}
+          path: ${{ matrix.artifact_path }}

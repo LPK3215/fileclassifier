@@ -1,0 +1,24 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="12" y1="10" x2="112" y2="118" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F6FED"/>
+      <stop offset="1" stop-color="#143B67"/>
+    </linearGradient>
+    <linearGradient id="sheet" x1="42" y1="26" x2="92" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FDFEFE"/>
+      <stop offset="1" stop-color="#EAF2FB"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="url(#bg)"/>
+  <rect x="24" y="28" width="80" height="72" rx="12" fill="#D9E7FB" opacity="0.22"/>
+  <path d="M40 24H84L96 36V92C96 98.627 90.627 104 84 104H40C33.373 104 28 98.627 28 92V36C28 29.373 33.373 24 40 24Z" fill="url(#sheet)"/>
+  <path d="M84 24V32C84 35.314 86.686 38 90 38H96" fill="#D5E3F8"/>
+  <rect x="40" y="44" width="14" height="14" rx="4" fill="#2F6FED"/>
+  <rect x="58" y="44" width="12" height="4" rx="2" fill="#7C97B7"/>
+  <rect x="58" y="54" width="24" height="4" rx="2" fill="#B0C1D8"/>
+  <rect x="40" y="64" width="14" height="14" rx="4" fill="#48B59C"/>
+  <rect x="58" y="64" width="18" height="4" rx="2" fill="#7C97B7"/>
+  <rect x="58" y="74" width="20" height="4" rx="2" fill="#B0C1D8"/>
+  <rect x="40" y="84" width="14" height="8" rx="4" fill="#FFB357"/>
+  <rect x="58" y="84" width="16" height="4" rx="2" fill="#7C97B7"/>
+</svg>

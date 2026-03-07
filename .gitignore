@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+*.spec
+frontend/node_modules/
+frontend/dist/
+fileclassifier-react-ui/node_modules/
+fileclassifier-react-ui/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local output
+data/output/
+.runtime/
